@@ -1,0 +1,239 @@
+Launching trading server...
+Starting 10 clients...
+
+[Client 5]: [ORDER] client 5 -> SELL 7 AAPL LIMIT 144.51
+[Client 4]: [ORDER] client 4 -> SELL 9 AAPL LIMIT 108.93
+[Client 1]: Portfolio (cash=10000):
+[Client 3]: [TRADE] 3 bought 7 AAPL from 5 @ 144.51
+[ORDER] client 3 -> BUY 48 AAPL LIMIT 155.55
+[Client 8]: [ORDER] client 8 -> BUY 32 AAPL LIMIT 130.13
+[Client 7]: [TRADE] 3 bought 41 AAPL from 7 @ 155.55
+[ORDER] client 7 -> SELL 46 AAPL LIMIT 132.92
+[Client 9]: [ORDER] client 9 -> BUY 48 AAPL LIMIT 101.36
+[Client 6]: Portfolio (cash=10000):
+[Client 2]: [ORDER] client 2 -> BUY 36 AAPL LIMIT 118.79
+[Client 10]: [ORDER] client 10 -> BUY 4 AAPL LIMIT 132.41
+[Client 8]: [TRADE] 8 bought 5 AAPL from 7 @ 132.92
+[Client 2]: Portfolio (cash=10000):
+[Client 9]: [ORDER] client 9 -> BUY 37 AAPL LIMIT 128.95
+[Client 1]: [TRADE] 8 bought 41 AAPL from 1 @ 159.66
+[TRADE] 10 bought 3 AAPL from 1 @ 132.41
+[Client 10]: [TRADE] 10 bought 3 AAPL from 1 @ 132.41
+[Client 4]: Portfolio (cash=10000):
+[Client 8]: [ORDER] client 8 -> BUY 46 AAPL LIMIT 159.66[TRADE] 8 bought 41 AAPL from 1 @ 159.66
+[TRADE] 8 bought 4 AAPL from 10 @ 130.13
+[Client 6]: [ORDER] client 6 -> BUY 12 AAPL LIMIT 132.74
+[Client 5]: [TRADE] 3 bought 7 AAPL from 5 @ 144.51
+[Client 7]: [TRADE] 8 bought 5 AAPL from 7 @ 132.92
+[Client 3]: [TRADE] 3 bought 41 AAPL from 7 @ 155.55
+[Client 9]: [ORDER] client 9 -> SELL 23 AAPL LIMIT 143.19
+[Client 4]: [ORDER] client 4 -> SELL 36 AAPL LIMIT 147.89
+[Client 7]: [TRADE] 8 bought 12 AAPL from 7 @ 129.72
+[ORDER] client 7 -> SELL 12 AAPL LIMIT 108.97
+[Client 6]: [TRADE] 6 bought 12 AAPL from 5 @ 132.74
+[Client 2]: [TRADE] 7 bought 20 AAPL from 2 @ 143.77
+[Client 3]: [ORDER] client 3 -> BUY 22 AAPL LIMIT 121.09
+[Client 1]: [ORDER] client 1 -> SELL 44 AAPL LIMIT 116.95
+[Client 4]: [TRADE] 6 bought 21 AAPL from 4 @ 147.89
+[Client 9]: [TRADE] 7 bought 23 AAPL from 9 @ 143.19
+[Client 6]: [TRADE] 6 bought 21 AAPL from 4 @ 147.89
+[ORDER] client 6 -> BUY 21 AAPL LIMIT 152.03
+[Client 10]: [TRADE] 10 bought 1 AAPL from 10 @ 132.41
+[TRADE] 10 bought 1 AAPL from 10 @ 132.41
+[TRADE] 8 bought 4 AAPL from 10 @ 130.13
+[ORDER] client 10 -> SELL 5 AAPL LIMIT 108.6
+[Client 8]: [ORDER] client 8 -> BUY 16 AAPL LIMIT 129.72[TRADE] 8 bought 28 AAPL from 5 @ 130.13
+[TRADE] 8 bought 1 AAPL from 5 @ 129.72
+[TRADE] 8 bought 12 AAPL from 7 @ 129.72
+[TRADE] 8 bought 3 AAPL from 2 @ 129.72
+[Client 5]: [TRADE] 6 bought 12 AAPL from 5 @ 132.74
+[TRADE] 8 bought 28 AAPL from 5 @ 130.13
+[TRADE] 8 bought 1 AAPL from 5 @ 129.72
+[ORDER] client 5 -> SELL 41 AAPL LIMIT 112.82
+[Client 3]: Portfolio (cash=2610.88): AAPL=48
+[Client 6]: [ORDER] client 6 -> BUY 8 AAPL LIMIT 103.4
+[Client 8]: Portfolio (cash=-3450.34): AAPL=94
+[Client 7]: [TRADE] 7 bought 23 AAPL from 9 @ 143.19
+[ORDER] client 7 -> BUY 43 AAPL LIMIT 143.77[TRADE] 7 bought 20 AAPL from 2 @ 143.77
+[Client 1]: Portfolio (cash=16943.3): AAPL=-44
+[Client 9]: [TRADE] 4 bought 17 AAPL from 9 @ 147.18
+[TRADE] 9 bought 9 AAPL from 9 @ 128.95
+[TRADE] 9 bought 9 AAPL from 9 @ 128.95
+[ORDER] client 9 -> SELL 26 AAPL LIMIT 116.85
+[Client 4]: [TRADE] 4 bought 23 AAPL from 2 @ 129.43
+[ORDER] client 4 -> BUY 40 AAPL LIMIT 147.18[TRADE] 4 bought 17 AAPL from 9 @ 147.18
+[Client 10]: [ORDER] client 10 -> SELL 42 AAPL LIMIT 144.88[TRADE] 3 bought 36 AAPL from 10 @ 144.88
+[Client 2]: [TRADE] 8 bought 3 AAPL from 2 @ 129.72
+[ORDER] client 2 -> SELL 46 AAPL LIMIT 129.43[TRADE] 4 bought 23 AAPL from 2 @ 129.43
+[Client 5]: Portfolio (cash=16377.8): AAPL=-48
+[Client 6]: Portfolio (cash=5301.43): AAPL=33
+[Client 7]: [ORDER] client 7 -> BUY 41 AAPL LIMIT 136.45[TRADE] 7 bought 41 AAPL from 2 @ 136.45
+[Client 8]: [ORDER] client 8 -> BUY 34 AAPL LIMIT 133.91[TRADE] 8 bought 9 AAPL from 2 @ 133.91
+[TRADE] 8 bought 3 AAPL from 6 @ 133.91
+[Client 3]: [TRADE] 3 bought 36 AAPL from 10 @ 144.88
+[ORDER] client 3 -> BUY 36 AAPL LIMIT 158.22
+[Client 2]: [TRADE] 7 bought 41 AAPL from 2 @ 136.45
+[TRADE] 8 bought 9 AAPL from 2 @ 133.91
+[ORDER] client 2 -> SELL 50 AAPL LIMIT 120.06
+[Client 9]: Portfolio (cash=15795.4): AAPL=-40
+[Client 1]: [ORDER] client 1 -> SELL 20 AAPL LIMIT 150.61
+[Client 6]: [TRADE] 8 bought 3 AAPL from 6 @ 133.91
+[ORDER] client 6 -> SELL 3 AAPL LIMIT 112.19
+[Client 4]: Portfolio (cash=7626.74): AAPL=19
+[Client 5]: [ORDER] client 5 -> SELL 24 AAPL LIMIT 154.02
+[Client 10]: [ORDER] client 10 -> BUY 33 AAPL LIMIT 126.37[TRADE] 10 bought 33 AAPL from 4 @ 126.37
+[Client 7]: Portfolio (cash=6835.57): AAPL=26
+[Client 1]: [ORDER] client 1 -> SELL 28 AAPL LIMIT 146.22
+[Client 7]: Portfolio (cash=6835.57): AAPL=26
+[Client 2]: [ORDER] client 2 -> SELL 6 AAPL LIMIT 138.5
+[Client 9]: [TRADE] 8 bought 11 AAPL from 9 @ 133.91
+[TRADE] 9 bought 12 AAPL from 9 @ 128.95
+[TRADE] 9 bought 12 AAPL from 9 @ 128.95
+[ORDER] client 9 -> SELL 23 AAPL LIMIT 91.96[TRADE] 9 bought 16 AAPL from 4 @ 128.95
+[Client 4]: [TRADE] 9 bought 16 AAPL from 4 @ 128.95
+[TRADE] 10 bought 33 AAPL from 4 @ 126.37
+[ORDER] client 4 -> SELL 49 AAPL LIMIT 108.78
+[Client 8]: [TRADE] 8 bought 11 AAPL from 8 @ 133.91
+[TRADE] 8 bought 11 AAPL from 8 @ 133.91
+[ORDER] client 8 -> SELL 11 AAPL LIMIT 102.9[TRADE] 8 bought 11 AAPL from 9 @ 133.91
+[Client 3]: Portfolio (cash=-2604.8): AAPL=84 [TRADE] 3 bought 20 AAPL from 7 @ 121.09
+[TRADE] 3 bought 2 AAPL from 4 @ 121.09
+[Client 6]: Portfolio (cash=5703.16): AAPL=30
+[Client 5]: [ORDER] client 5 -> BUY 6 AAPL LIMIT 95.74
+[Client 10]: Portfolio (cash=11168.8): AAPL=-4
+[Client 1]: Portfolio (cash=16943.3): AAPL=-44
+[Client 9]: Portfolio (cash=15205.2): AAPL=-35
+[Client 2]: [ORDER] client 2 -> SELL 32 AAPL LIMIT 141.11[TRADE] 2 bought 24 AAPL from 4 @ 118.79
+[TRADE] 2 bought 2 AAPL from 8 @ 118.79
+[TRADE] 2 bought 10 AAPL from 3 @ 118.79
+[Client 4]: [TRADE] 3 bought 2 AAPL from 4 @ 121.09
+[TRADE] 2 bought 24 AAPL from 4 @ 118.79
+[ORDER] client 4 -> SELL 26 AAPL LIMIT 101.8
+[Client 8]: [TRADE] 2 bought 2 AAPL from 8 @ 118.79
+[ORDER] client 8 -> SELL 2 AAPL LIMIT 97.7
+[Client 9]: [TRADE] 9 bought 22 AAPL from 3 @ 108.07
+[ORDER] client 9 -> BUY 41 AAPL LIMIT 113.08[TRADE] 9 bought 19 AAPL from 8 @ 113.08
+[Client 7]: [TRADE] 3 bought 20 AAPL from 7 @ 121.09
+[ORDER] client 7 -> SELL 20 AAPL LIMIT 102.66
+[Client 3]: [TRADE] 2 bought 10 AAPL from 3 @ 118.79
+[ORDER] client 3 -> SELL 32 AAPL LIMIT 108.07[TRADE] 9 bought 22 AAPL from 3 @ 108.07
+[Client 2]: Portfolio (cash=18764.6): AAPL=-60
+[Client 6]: [ORDER] client 6 -> BUY 28 AAPL LIMIT 105.86[TRADE] 6 bought 17 AAPL from 8 @ 105.86
+[Client 5]: [ORDER] client 5 -> SELL 1 AAPL LIMIT 124.69[TRADE] 1 bought 1 AAPL from 5 @ 124.69
+[Client 1]: [TRADE] 1 bought 1 AAPL from 5 @ 124.69
+[ORDER] client 1 -> BUY 3 AAPL LIMIT 129.86[TRADE] 1 bought 2 AAPL from 8 @ 129.86
+[Client 7]: [ORDER] client 7 -> BUY 10 AAPL LIMIT 101.88
+[Client 4]: [ORDER] client 4 -> BUY 12 AAPL LIMIT 138.49[TRADE] 4 bought 12 AAPL from 8 @ 138.49
+[Client 2]: [TRADE] 3 bought 31 AAPL from 2 @ 127.88
+[ORDER] client 2 -> SELL 31 AAPL LIMIT 96.09
+[Client 10]: [ORDER] client 10 -> SELL 33 AAPL LIMIT 138.89
+[Client 3]: [ORDER] client 3 -> BUY 32 AAPL LIMIT 127.88[TRADE] 3 bought 31 AAPL from 2 @ 127.88
+[TRADE] 3 bought 1 AAPL from 6 @ 127.88
+[Client 4]: [ORDER] client 4 -> BUY 10 AAPL LIMIT 110.59
+
+All clients finished. Stopping server...
+
+NRT mutex stress test complete!
+Total orders processed: 55
+1: Client 5 SELL 7 AAPL LIMIT @ 144.51
+2: Client 4 SELL 9 AAPL LIMIT @ 108.93
+3: Client 3 BUY 48 AAPL LIMIT @ 155.55
+4: Client 8 BUY 32 AAPL LIMIT @ 130.13
+5: Client 7 SELL 46 AAPL LIMIT @ 132.92
+6: Client 9 BUY 48 AAPL LIMIT @ 101.36
+7: Client 2 BUY 36 AAPL LIMIT @ 118.79
+8: Client 10 BUY 4 AAPL LIMIT @ 132.41
+9: Client 9 BUY 37 AAPL LIMIT @ 128.95
+10: Client 8 BUY 46 AAPL LIMIT @ 159.66
+11: Client 6 BUY 12 AAPL LIMIT @ 132.74
+12: Client 9 SELL 23 AAPL LIMIT @ 143.19
+13: Client 4 SELL 36 AAPL LIMIT @ 147.89
+14: Client 7 SELL 12 AAPL LIMIT @ 108.97
+15: Client 3 BUY 22 AAPL LIMIT @ 121.09
+16: Client 1 SELL 44 AAPL LIMIT @ 116.95
+17: Client 6 BUY 21 AAPL LIMIT @ 152.03
+18: Client 10 SELL 5 AAPL LIMIT @ 108.6
+19: Client 8 BUY 16 AAPL LIMIT @ 129.72
+20: Client 5 SELL 41 AAPL LIMIT @ 112.82
+21: Client 6 BUY 8 AAPL LIMIT @ 103.4
+22: Client 7 BUY 43 AAPL LIMIT @ 143.77
+23: Client 9 SELL 26 AAPL LIMIT @ 116.85
+24: Client 4 BUY 40 AAPL LIMIT @ 147.18
+25: Client 10 SELL 42 AAPL LIMIT @ 144.88
+26: Client 2 SELL 46 AAPL LIMIT @ 129.43
+27: Client 7 BUY 41 AAPL LIMIT @ 136.45
+28: Client 8 BUY 34 AAPL LIMIT @ 133.91
+29: Client 3 BUY 36 AAPL LIMIT @ 158.22
+30: Client 2 SELL 50 AAPL LIMIT @ 120.06
+31: Client 1 SELL 20 AAPL LIMIT @ 150.61
+32: Client 6 SELL 3 AAPL LIMIT @ 112.19
+33: Client 5 SELL 24 AAPL LIMIT @ 154.02
+34: Client 10 BUY 33 AAPL LIMIT @ 126.37
+35: Client 1 SELL 28 AAPL LIMIT @ 146.22
+36: Client 2 SELL 6 AAPL LIMIT @ 138.5
+37: Client 9 SELL 23 AAPL LIMIT @ 91.96
+38: Client 4 SELL 49 AAPL LIMIT @ 108.78
+39: Client 8 SELL 11 AAPL LIMIT @ 102.9
+40: Client 5 BUY 6 AAPL LIMIT @ 95.74
+41: Client 2 SELL 32 AAPL LIMIT @ 141.11
+42: Client 4 SELL 26 AAPL LIMIT @ 101.8
+43: Client 8 SELL 2 AAPL LIMIT @ 97.7
+44: Client 9 BUY 41 AAPL LIMIT @ 113.08
+45: Client 7 SELL 20 AAPL LIMIT @ 102.66
+46: Client 3 SELL 32 AAPL LIMIT @ 108.07
+47: Client 6 BUY 28 AAPL LIMIT @ 105.86
+48: Client 5 SELL 1 AAPL LIMIT @ 124.69
+49: Client 1 BUY 3 AAPL LIMIT @ 129.86
+50: Client 7 BUY 10 AAPL LIMIT @ 101.88
+51: Client 4 BUY 12 AAPL LIMIT @ 138.49
+52: Client 2 SELL 31 AAPL LIMIT @ 96.09
+53: Client 10 SELL 33 AAPL LIMIT @ 138.89
+54: Client 3 BUY 32 AAPL LIMIT @ 127.88
+55: Client 4 BUY 10 AAPL LIMIT @ 110.59
+
+Total trades executed: 45
+1: Buyer 3 bought 7 AAPL from Seller 5 @ 144.51
+2: Buyer 3 bought 41 AAPL from Seller 7 @ 155.55
+3: Buyer 8 bought 5 AAPL from Seller 7 @ 132.92
+4: Buyer 8 bought 41 AAPL from Seller 1 @ 159.66
+5: Buyer 10 bought 3 AAPL from Seller 1 @ 132.41
+6: Buyer 8 bought 41 AAPL from Seller 1 @ 159.66
+7: Buyer 3 bought 7 AAPL from Seller 5 @ 144.51
+8: Buyer 8 bought 5 AAPL from Seller 7 @ 132.92
+9: Buyer 3 bought 41 AAPL from Seller 7 @ 155.55
+10: Buyer 8 bought 12 AAPL from Seller 7 @ 129.72
+11: Buyer 6 bought 12 AAPL from Seller 5 @ 132.74
+12: Buyer 7 bought 20 AAPL from Seller 2 @ 143.77
+13: Buyer 6 bought 21 AAPL from Seller 4 @ 147.89
+14: Buyer 7 bought 23 AAPL from Seller 9 @ 143.19
+15: Buyer 6 bought 21 AAPL from Seller 4 @ 147.89
+16: Buyer 10 bought 1 AAPL from Seller 10 @ 132.41
+17: Buyer 8 bought 28 AAPL from Seller 5 @ 130.13
+18: Buyer 6 bought 12 AAPL from Seller 5 @ 132.74
+19: Buyer 7 bought 23 AAPL from Seller 9 @ 143.19
+20: Buyer 4 bought 17 AAPL from Seller 9 @ 147.18
+21: Buyer 4 bought 23 AAPL from Seller 2 @ 129.43
+22: Buyer 3 bought 36 AAPL from Seller 10 @ 144.88
+23: Buyer 8 bought 3 AAPL from Seller 2 @ 129.72
+24: Buyer 7 bought 41 AAPL from Seller 2 @ 136.45
+25: Buyer 8 bought 9 AAPL from Seller 2 @ 133.91
+26: Buyer 3 bought 36 AAPL from Seller 10 @ 144.88
+27: Buyer 7 bought 41 AAPL from Seller 2 @ 136.45
+28: Buyer 8 bought 3 AAPL from Seller 6 @ 133.91
+29: Buyer 10 bought 33 AAPL from Seller 4 @ 126.37
+30: Buyer 8 bought 11 AAPL from Seller 9 @ 133.91
+31: Buyer 9 bought 16 AAPL from Seller 4 @ 128.95
+32: Buyer 8 bought 11 AAPL from Seller 8 @ 133.91
+33: Buyer 3 bought 20 AAPL from Seller 7 @ 121.09
+34: Buyer 2 bought 24 AAPL from Seller 4 @ 118.79
+35: Buyer 3 bought 2 AAPL from Seller 4 @ 121.09
+36: Buyer 2 bought 2 AAPL from Seller 8 @ 118.79
+37: Buyer 9 bought 22 AAPL from Seller 3 @ 108.07
+38: Buyer 3 bought 20 AAPL from Seller 7 @ 121.09
+39: Buyer 2 bought 10 AAPL from Seller 3 @ 118.79
+40: Buyer 6 bought 17 AAPL from Seller 8 @ 105.86
+41: Buyer 1 bought 1 AAPL from Seller 5 @ 124.69
+42: Buyer 1 bought 1 AAPL from Seller 5 @ 124.69
+43: Buyer 4 bought 12 AAPL from Seller 8 @ 138.49
+44: Buyer 3 bought 31 AAPL from Seller 2 @ 127.88
+45: Buyer 3 bought 31 AAPL from Seller 2 @ 127.88
