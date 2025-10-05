@@ -1,0 +1,26 @@
+SYSTEM: Serveur démarré
+SYSTEM: Client connecté !
+Client: 1 1
+Serveur: Réponse pour la clé 1 : 45
+Client: 1 2
+Serveur: Réponse pour la clé 2 : 78
+Client: 1 3
+Serveur: Réponse pour la clé 3 : 23
+SYSTEM: Client déconnecté !
+SYSTEM: Client connecté !
+Client: 3 7
+Serveur: Réponse pour la clé 7 : 67
+Client: 3 8
+Serveur: Réponse pour la clé 8 : 90
+Client: 3 9
+Serveur: Réponse pour la clé 9 : 10
+SYSTEM: Client déconnecté !
+SYSTEM: Client connecté !
+Client: 2 4
+Serveur: Réponse pour la clé 4 : 56
+Client: 2 5
+Serveur: Réponse pour la clé 5 : 89
+Client: 2 6
+Serveur: Réponse pour la clé 6 : 34
+SYSTEM: Client déconnecté !
+SYSTEM: Serveur arrêté
