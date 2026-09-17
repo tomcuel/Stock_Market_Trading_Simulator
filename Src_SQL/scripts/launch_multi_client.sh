@@ -292,12 +292,13 @@ if [[ "${USE_REAL_PRICES}" == "true" ]]; then
     fi
     echo "==> Using real action prices: ${ACTION_PRICE_PAIRS}"  
 fi
+sleep 5
 
 # ============================================================
 # Start server
 # ============================================================
 echo "==> Starting the server"
-(cd "${SRC_SQL_DIR}" && ./server.x play "${PRE_OPEN_TIME_DELAY}" "${OPEN_TIME_DELAY}" "${CONTINUOUS_TRADING_TIME_DELAY}" "${CONTINUOUS_TRADING_LOOP_DURATION}" "${PRE_CLOSE_TIME_DELAY}" > "${LOG_DIR}/server.log" 2>&1 &)
+(cd "${SRC_SQL_DIR}" && ./server.x play "${PRE_OPEN_TIME_DELAY}" "${OPEN_TIME_DELAY}" "${CONTINUOUS_TRADING_TIME_DELAY}" "${CONTINUOUS_TRADING_LOOP_DURATION}" "${PRE_CLOSE_TIME_DELAY}" "${TRIGGER_POLL_INTERVAL}" > "${LOG_DIR}/server.log" 2>&1 &)
 SERVER_PID_FILE="${LOG_DIR}/server.pid"
 # server.x doesn't print its own PID, wait briefly and find the process
 sleep 1
@@ -326,13 +327,23 @@ fi
 echo "==> Generating order sequences"
 for i in $(seq 1 "${NUM_CLIENTS}"); do
     CMD_FILE="${CMD_DIR}/client${i}_commands.txt"
-    python3 "${SCRIPT_DIR}/generate_client_orders.py" \
-        --num-actions "${NUM_ACTIONS}" \
-        --num-orders "${ORDERS_PER_CLIENT}" \
-        --seed "${i}" \
-        --display-every 0 \
-        > "${CMD_FILE}"
-# --exit-at-end \
+    if [[ "${USE_REAL_PRICES}" == "true" ]]; then
+        python3 "${SCRIPT_DIR}/generate_client_orders.py" \
+            --action-prices ${ACTION_PRICE_PAIRS} \
+            --num-orders "${ORDERS_PER_CLIENT}" \
+            --seed "${i}" \
+            --display-every 0 \
+            > "${CMD_FILE}"
+            # --exit-at-end \
+    else
+        python3 "${SCRIPT_DIR}/generate_client_orders.py" \
+            --num-actions "${NUM_ACTIONS}" \
+            --num-orders "${ORDERS_PER_CLIENT}" \
+            --seed "${i}" \
+            --display-every 0 \
+            > "${CMD_FILE}"
+            # --exit-at-end \
+    fi
 done
 
 # a single random-ish seed component per invocation, PID + bash's own $RANDOM 
